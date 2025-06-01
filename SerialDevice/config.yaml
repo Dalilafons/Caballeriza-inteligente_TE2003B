@@ -1,23 +1,23 @@
 main_app:
-  title: "Arduino Serial App"
+  title: "Caballeriza Inteligente 🐴"
   width: 800
   height: 600
 
 ui:
-  font_family: "Times New Roman"
+  font_family: "Arial"
   font_size: 14
-  font_color: "#000000" 
+  font_color: "#000000"
 
   buttons:
     send:
       text_color: "#FFFFFF"
-      bg_color: "#31CAE8"
+      bg_color: "#4CAF50"   # Verde para enviar
     disconnect:
       text_color: "#FFFFFF"
-      bg_color: "#FF4136"
+      bg_color: "#E74C3C"   # Rojo para desconectar
     close:
       text_color: "#FFFFFF"
-      bg_color: "#111111"
+      bg_color: "#2C3E50"   # Gris oscuro para cerrar
 
   textboxes:
     input:
@@ -25,4 +25,4 @@ ui:
       bg_color: "#FFFFFF"
     output:
       text_color: "#000000"
-      bg_color: "#FFFFFF"
+      bg_color: "#F4F4F4"
